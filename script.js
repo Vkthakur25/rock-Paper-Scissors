@@ -11,6 +11,7 @@ function userChoiceRock() {
   let initialNumber = parseInt(Math.floor(Math.random() * 10));
   console.log(initialNumber);
   if (initialNumber <= 2) {
+    console.log("Rock")
     document.getElementById('result').innerHTML = 'Tie';
     ++totalTies;
     document.getElementById("ties").innerHTML=`Total Ties - ${totalTies}`;

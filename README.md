@@ -1,3 +1,2 @@
 # rock-Paper-Scissors
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/rpsgame)
+Hey this is Vivek Kumar.

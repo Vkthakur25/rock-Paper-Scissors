@@ -2,39 +2,6 @@
   margin: 0px;
   padding: 0px;
 }
-.nav {
-  border: 2px solid black;
-  height: 22vh;
-  width: 100%;
-  background-color: rgba(72, 160, 243, 0.623);
-}
-.nav h1 {
-  width: 40rem;
-  margin: auto;
-  padding-top: 2rem;
-}
-.nav h3 {
-  width: 18rem;
-  margin: auto;
-  padding-top: 1rem;
-}
-.intro{
-  border: 2px solid black;
-  height: 20vh;
-}
-.systemChoice{
-  border: 2px solid black;
-  height: 20vh;
-}
-#result{
-  border: 2px solid black;
-}
-.userChoice{
-  border: 2px solid black;
-    height: 7vh;
-    width: 60vh;
-    margin: auto;
-}
 .scoreBoard{
   border: 2px solid black;
   height: 5vh;
