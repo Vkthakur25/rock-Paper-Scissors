@@ -2,17 +2,7 @@
   margin: 0px;
   padding: 0px;
 }
-.displayBox {
-  max-width: 18rem;
-    height: 11rem;
-    margin-left: 20rem;
-    margin-top: 1rem;
 
-}
-.title{
-  width: fit-content;
-}
-@media only screen and (max-width: 600px){
   .displayBox {
     width: 21rem;
     height: 11rem;
@@ -31,7 +21,7 @@
   .scoreBox{
     width: 25rem;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   #wins{
     margin-left: 2.5rem;
@@ -43,6 +33,9 @@
     margin-left: 1rem;
   }
   #accordionExample{
+    margin-top:5rem;
     height:16rem;
   }
+@media only screen and (max-width: 900px){
+ 
 }
