@@ -19,21 +19,24 @@
         <span class="navbar-text text-white"> ROCK PAPER SCISSORS GAME </span>
       </div>
     </nav>
+    <div class="container">
     <section class="intro">
-      <div class="fs-1 py-4 w-50 m-auto">Welcome to my Gaming Site</div>
-      <section class="w-25  m-auto fs-1 my-5 border" id="result" > Result
-    </section>
-    <section class="w-25 m-auto border">
-    <button class="btn btn-secondary fs-4" onclick="userChoiceRock()">Rock</button>
-    <button class="btn btn-secondary fs-4" onclick="userChoicePaper()">Paper</button>
-    <button class="btn btn-secondary fs-4" onclick="userChoiceScissors()">Scissors</button>
+      <div class="title fs-1 py-4 m-auto">Welcome to my Gaming Site</div>
+
+<div class="border">
+      <div class="displayBox border m-auto" id="result" > Result
+      </div>
+    <section class="w-25 border">
+    <button class="btn btn-secondary fs-5" onclick="userChoiceRock()">Rock</button>
+    <button class="btn btn-secondary fs-5" onclick="userChoicePaper()">Paper</button>
+    <button class="btn btn-secondary fs-5" onclick="userChoiceScissors()">Scissors</button>
   </section>
   <section class="border w-25 m-auto my-4">
     <span id="wins" class="m-2">Here shows Wins</span>
     <span id="loses" class="m-2">Loses</span>
     <span id="ties" class="m-2">Ties</span>
   </section>
-
+</div>
 
 
       <div class="accordion my-4" id="accordionExample">
@@ -67,6 +70,8 @@
       </div>
     </div>
       </div>
+
+      
       <div class="px-2">
         <p class="fs-4"></p>
         <p>
@@ -78,6 +83,7 @@
  
     
     
+  </div> 
     <div >
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark">
         <div class="col-md-4 d-flex align-items-center">
@@ -93,7 +99,7 @@
           <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
         </ul>
       </div>  
-    </footer> 
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>

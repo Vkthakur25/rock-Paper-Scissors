@@ -2,11 +2,23 @@
   margin: 0px;
   padding: 0px;
 }
-.scoreBoard{
-  border: 2px solid black;
-  height: 5vh;
+.displayBox {
+  max-width: 18rem;
+    height: 11rem;
+    margin-left: 20rem;
+    margin-top: 1rem;
+
 }
-.footer{
-  border: 2px solid black;
-  height: 6vh;
+.title{
+  width: fit-content;
+}
+@media only screen and (max-width: 600px){
+  .displayBox {
+  margin: auto;
+    width: 21rem;
+    height: 11rem;
+  }
+  .title{
+    width: fit-content;
+  }
 }
