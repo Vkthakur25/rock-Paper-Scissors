@@ -14,11 +14,35 @@
 }
 @media only screen and (max-width: 600px){
   .displayBox {
-  margin: auto;
     width: 21rem;
     height: 11rem;
+    font-size: 5rem;
+    padding-left: 3.5rem;
+    padding-top: 1.2rem;
   }
   .title{
     width: fit-content;
+  }
+  .gameButton{
+    width: fit-content;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .scoreBox{
+    width: 25rem;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  #wins{
+    margin-left: 2.5rem;
+  }
+  #loses{
+    margin-left: 1rem;
+  }
+  #ties{
+    margin-left: 1rem;
+  }
+  #accordionExample{
+    height:16rem;
   }
 }
